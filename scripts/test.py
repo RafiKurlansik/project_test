@@ -3,12 +3,12 @@
 
 # COMMAND ----------
 
- dbutils.fs.mv("file:/databricks/driver/my_package-0.1-py3-none-any.whl?raw=true", 
-               "dbfs:/dbacademy/joshuacook/my_package-0.1-py3-none-any.whl")
+ dbutils.fs.mv("file:/databricks/driver/my_package-0.1-py3-none-any.whl?raw=true",
+               "dbfs:/dist/my_package-0.1-py3-none-any.whl")
 
 # COMMAND ----------
 
-# MAGIC %pip install /dbfs/dbacademy/joshuacook/my_package-0.1-py3-none-any.whl
+# MAGIC %pip install /dbfs/dist/my_package-0.1-py3-none-any.whl
 
 # COMMAND ----------
 
