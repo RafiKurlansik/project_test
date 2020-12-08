@@ -1,6 +1,4 @@
 # Databricks notebook source
-# Databricks notebook source
-
 test = "mytest"
 
 def squareNum2 (x):
