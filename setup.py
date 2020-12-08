@@ -1,5 +1,4 @@
 # Databricks notebook source
-
 import setuptools
 from setuptools import find_packages
 
