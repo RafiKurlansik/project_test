@@ -13,6 +13,6 @@ math.squared(4)
 
 # COMMAND ----------
 
-# MAGIC token = dbutils.secrets.get(scope = <USERNAME>, key = <KEY>)
-# MAGIC
-# MAGIC %pip install git+https://$token@github.com/RafiKurlansik/project_test.git
+token = dbutils.secrets.get(scope = <USERNAME>, key = <KEY>)
+
+%pip install git+https://$token@github.com/RafiKurlansik/project_test.git
