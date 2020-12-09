@@ -1,4 +1,20 @@
 # Databricks notebook source
+# MAGIC %md ## Define Functions via Notebook Run
+
+# COMMAND ----------
+
+# MAGIC %run ../my_package/math
+
+# COMMAND ----------
+
+squared(4)
+
+# COMMAND ----------
+
+# MAGIC %md ## Install via GitHub
+
+# COMMAND ----------
+
 # MAGIC %pip install git+https://github.com/RafiKurlansik/project_test
 
 # COMMAND ----------
@@ -9,13 +25,13 @@ math.squared(4)
 
 # COMMAND ----------
 
-# MAGIC %md ### Install with Token
+# MAGIC %md ### Install via GitHub with Token
 
 # COMMAND ----------
 
-# MAGIC token = dbutils.secrets.get(scope = <USERNAME>, key = <KEY>)
-# MAGIC
-# MAGIC %pip install git+https://$token@github.com/RafiKurlansik/project_test.git
+token = dbutils.secrets.get(scope = <USERNAME>, key = <KEY>)
+
+%pip install git+https://$token@github.com/RafiKurlansik/project_test.git
 
 # COMMAND ----------
 
