@@ -1,6 +1,4 @@
 # Databricks notebook source
-## Databricks notebook source
-
 from pyspark import keyword_only 
 from pyspark.ml import Transformer
 from pyspark.ml.param.shared import HasInputCol, HasOutputCol, Param
