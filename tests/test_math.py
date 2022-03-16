@@ -1,4 +1,4 @@
-from my_package.math import squared
+from featurelib.math import squared
 
 
 class TestSquared:

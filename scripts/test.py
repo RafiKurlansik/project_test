@@ -3,7 +3,7 @@
 
 # COMMAND ----------
 
-# MAGIC %run ../my_package/math
+# MAGIC %run ../featurelib/math
 
 # COMMAND ----------
 
@@ -19,7 +19,7 @@ squared(4)
 
 # COMMAND ----------
 
-from my_package import math
+from featurelib import math
 
 math.squared(4)
 
