@@ -1,14 +1,14 @@
 # How This Repo Works
 
-## `my_package`
+## `featurelib`
 
-A python package is built in the my_package directory.
+A python package is built in the featurelib directory.
 
 ## Build and Deploy Package
 
 ### Local Development
 
-1. Make any changes to `my_package`
+1. Make any changes to `featurelib`
 1. Push changes to Github
 
 ### On Databricks
