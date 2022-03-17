@@ -4,13 +4,17 @@
 
 A python package is built in the featurelib directory.
 
-## Build and Deploy Package
-
 ### Local Development
 
 1. Make any changes to `featurelib`
-1. Push changes to Github
+2. Push changes to GitHub
 
-### On Databricks
+### Developing on Databricks
+1. Sync with Databricks Repos
+2. Edit inside of Workspace
+3. Push changes to GitHub
 
-Run the file `scripts/test`.
+### Installation
+
+1. pip install the package from GitHub
+
